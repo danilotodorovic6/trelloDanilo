@@ -1,33 +1,5 @@
 {
   "boards": [
-    {
-      "name": "lnl",
-      "user": 0,
-      "id": 20736984769,
-      "starred": true,
-      "created": "2021-10-16"
-    },
-    {
-      "name": "gagagrw",
-      "user": 0,
-      "id": 33458633445,
-      "starred": false,
-      "created": "2021-10-16"
-    },
-    {
-      "name": "grtrwgw",
-      "user": 0,
-      "id": 13443114646,
-      "starred": false,
-      "created": "2021-10-16"
-    },
-    {
-      "name": "bratmooj",
-      "user": 0,
-      "id": 20025900979,
-      "starred": false,
-      "created": "2021-10-16"
-    },
     [
       {
         "name": "bratmooj"
@@ -42,14 +14,7 @@
       {
         "name": "bratmooj"
       }
-    ],
-    {
-      "name": "fafa",
-      "user": 0,
-      "id": 37203528157,
-      "starred": false,
-      "created": "2021-10-16"
-    }
+    ]
   ],
   "tasks": [],
   "users": [],
