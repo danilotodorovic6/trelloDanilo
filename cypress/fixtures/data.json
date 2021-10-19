@@ -1,0 +1,5 @@
+{
+    "boards": ["Todo", "In progress", "In QA", "Done"],
+    "boardIDs": [],
+    "listTitles": ["Stubbing network responses", "Changing parts of response data", "Intercepting"]
+}

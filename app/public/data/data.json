@@ -1,21 +1,5 @@
 {
-  "boards": [
-    [
-      {
-        "name": "bratmooj"
-      }
-    ],
-    [
-      {
-        "name": "bratmooj"
-      }
-    ],
-    [
-      {
-        "name": "bratmooj"
-      }
-    ]
-  ],
+  "boards": [],
   "tasks": [],
   "users": [],
   "lists": []
