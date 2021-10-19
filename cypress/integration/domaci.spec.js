@@ -15,7 +15,7 @@ describe("", () => {
                 method: "POST",
                 url: "api/boards",
                 body: {
-                    name: boardsName
+                    name: 'dsfjdsjf'
                 }
             }).as("boardCreated");
             cy.get("div[data-cy='board-item'] > .board_title").eq(i).should("have.text", boards[i]);
