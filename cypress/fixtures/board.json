@@ -1,9 +1,7 @@
-[
-    {
-      "name": "Brapoo",
-      "user": 1,
-      "id": 29648476819,
-      "starred": false,
-      "created": "2002-10-16"
-    }
-]
+{
+  "boardTitle": "div[data-cy='board-item'] > .board_title",
+  "boardItem": "div[data-cy='board-item']",
+  "boards": "div[class='board']",
+  "favoriteBoard": "div:nth-of-type(1) > .board_item > .board_title",
+  "myBoardsButton": ".router-link-active"
+}

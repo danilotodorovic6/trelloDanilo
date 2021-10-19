@@ -1,13 +1,13 @@
 /// <reference types="cypress" />
+import board from "../fixtures/board.json"
 
 describe("Network stubbing", () => {
     let id;
     it("I can change network response", () => {
         cy.intercept("api/boards", { fixture: "board.json" }).as("fakeBoard");
         cy.visit("/");
-        cy.get("div[data-cy='board-item'] > h1[class='board_title']").should("have.text", "Brapoo");
+        cy.get(board.boardTitle).should("have.text", "Brapoo");
         cy.wait("@fakeBoard").then((intercept) => {
-            console.log(intercept);
             expect(intercept.response.body[0].name).to.eq("Brapoo");
             expect(intercept.response.statusCode).to.eq(200);
             id = intercept.response.body[0].id;
