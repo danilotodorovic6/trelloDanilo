@@ -1,0 +1,7 @@
+{
+  "boardTitle": "div[data-cy='board-item'] > .board_title",
+  "boardItem": "div[data-cy='board-item']",
+  "boards": "div[class='board']",
+  "favoriteBoard": "div:nth-of-type(1) > .board_item > .board_title",
+  "myBoardsButton": ".router-link-active"
+}

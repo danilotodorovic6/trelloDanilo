@@ -1,0 +1,30 @@
+[
+    {
+        "name": "In QA",
+        "user": 0,
+        "id": 65810796973,
+        "starred": false,
+        "created": "2021-10-21",
+        "lists": [
+          {
+            "boardId": 65810796973,
+            "title": "Stubbing network responses",
+            "id": 11052423577,
+            "created": "2021-10-21"
+          },
+          {
+            "boardId": 65810796973,
+            "title": "Changing parts of response data",
+            "id": 65332143354,
+            "created": "2021-10-21"
+          },
+          {
+            "boardId": 65810796973,
+            "title": "Intercepting",
+            "id": 7019498794,
+            "created": "2021-10-21"
+          }
+        ],
+        "tasks": []
+      }
+]
